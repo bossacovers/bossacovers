@@ -17,7 +17,9 @@ header .hero {
 
 header .hero img {
     width: 100%;
-    height: auto;
+    /* Set a fixed height to reduce the hero image size and ensure consistent cropping */
+    height: 50vh;
+    object-fit: cover;
     display: block;
     /* Darken the image slightly for better text contrast */
     filter: brightness(0.6);
